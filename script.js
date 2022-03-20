@@ -2,7 +2,7 @@
 var img = document.createElement('img');
 
 async function getDogPicture(){
-	let response = await fetch('https://api.thedogapi.com/v1/images/search');
+	let response = await fetch('https://api.thecatapi.com/v1/images/search');
 	
 	if (response.ok){
 		let json = await response.json();
