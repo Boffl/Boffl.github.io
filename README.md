@@ -1,4 +1,3 @@
-## Generate cat pictures to look at for relaxation
-fetches a random cat picture from the cats-as-a-sevice-API (thecatapi.com)
+## My personal website
+Built with the <strong>prologue</strong> template from [HTMLup](https://html5up.net/).
 
-Just wanted to try out how Github pages work... :)

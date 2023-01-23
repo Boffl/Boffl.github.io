@@ -1,17 +1,184 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<script src="script.js" defer></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+		<title>Niko's Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
-		<h1>Random cat</h1>
-		<form>
-			<button id='b' type="button" class="btn btn-primary" onclick='getDogPicture()'>Generate a random cat picture</button>
-		</form>
-		<span id = 'picture'></span>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Niko</h1>
+							<p></p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/Boffl" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<!--
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							-->
+							<li><a href="mailto:nikolaj.bauer@uzh.ch" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.instagram.com/bauer.nikolaj/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! My name is <strong>Niko</strong>, I study Computational linguistics and Musicology at the <br />
+								 <a href="http://uzh.ch">University of Zurich</a>.</h2>
+								<p>Below you find some of stuff I built or am currently working on</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Check it out!</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2></h2>
+							</header>
+
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="http://digital-musicology.herokuapp.com/dandrieu/" class="image fit"><img src="images/harmonize_bass.JPG" alt="" /></a>
+										<header>
+											<h2>Harmonizing a bass line using python</h2>
+											<p>
+											This is my attempt at creating a connection between the two subjects I study.
+											The idea came, when I while doing homework for music theory classes.
+											Unfortunatelly program was never good enough to have saved me actual time in
+											doing my assingments...
+											</p>
+										</header>
+
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="http://simple-crossword-generator.herokuapp.com/" class="image fit"><img src="images/crossword_generator.JPG" alt="" /></a>
+										<header>
+											<h2>Simple Crossword Generator</h2>
+											<p>
+												This was a project for a class called "Language Technology and Webapplications". For this I collaborated with two friends:
+												<a href="https://github.com/JeanKesselring">Jean</a> and
+												<a href="https://github.com/luiwun">Luisa</a>
+											</p>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="images/gpt-3_game.JPG" alt="" /></a>
+										<header>
+											<h2>Interactive Social Game using GPT-3</h2>
+											<p>Also in collaboration with
+												<a href="https://github.com/JeanKesselring">Jean</a> and
+												<a href="https://github.com/luiwun">Luisa</a>.
+												Work in progress, see <a href="https://github.com/Boffl/language-game-prototype">Prototype</a>
+											</p>
+
+										</header>
+									</article>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+							<p>Fun fact: I also am a tap dancer, in case you want to book a little show for an event, check <a href="#tapDance">this</a> out
+								<br> Other than that I really don't know what to write here. Just contact me, I guess. My contacts are in the menu to the left.</p>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="tapDance" class="four">
+						<div class="container">
+
+							<article class="item">
+									<a href="https://fourfortheblues.ch/en/cotton-club-combo1/" class="image fit"><img src="images/Cotton-Club-Combo-Bild-Karte-gross.jpg" alt="" /></a>
+									<header>
+										<h2>Cotton Club Combo</h2>
+										<p>
+											The musical journey with the live band takes you back to the Golden Twenties and invites you to a visit at the legendary Cotton Club.
+										</p>
+									</header>
+							</article>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
-
-
-
 </html>
