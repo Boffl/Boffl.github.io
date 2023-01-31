@@ -1795,6 +1795,13 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			/* with 80% it looks nicely, and the auto makes it that the aspect ratio stays fine */
+			.image.about {
+				display: inline-block;
+				max-width: 80%;
+				width: auto;
+				height: auto;
+			}
 
 /* List */
 
