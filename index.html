@@ -30,8 +30,8 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#tapDance" id="portfolio-link"><span class="icon solid fa-th">Tap Dance</span></a></li>
+								<li><a href="#work" id="work-link"><span class="icon solid fa-th">My Work</span></a></li>
+								<li><a href="#tapDance" id="tapDance-link"><span class="icon solid fa-th">Tap Dance</span></a></li>
 							</ul>
 						</nav>
 
@@ -79,7 +79,7 @@
 							</header>
 							<p>I’m passionate about the intersection of language models and society, exploring both their practical applications and their broader implications. My work focuses on LLMs in digital humanities, with a particular interest in efficient fine-tuning and domain-specific adaptations.</p>
 
-							<p>Beyond that, I have a strong interest in computational musicology, combining my background in musicology with data-driven approaches to analyze and interpret music. I enjoy working on projects that bridge the gap between machine learning, text analysis, and cultural heritage.</p>
+							<p>Beyond that, I'm interested in computational musicology, combining my background in musicology with data-driven approaches to analyze and interpret music. I enjoy working on projects that bridge the gap between machine learning, text analysis, and cultural heritage.</p>
 							
 							<p>Below, you’ll find some of my work—feel free to explore!</p>
 							<!--
@@ -97,34 +97,75 @@
 						</div>
 					</section>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="three">
+				<!-- Work -->
+					<section id="work" class="three">
 						<div class="container">
 
 							<header>
 								<h2></h2>
 							</header>
 
+							<div class="row">
+
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<img class="image fit" src="images/bullingerPortrait.jpg" alt="" />
+										<header>
+											<h2>Writing Scholarly Footnotes with LLMs</h2>
+											<p>
+											This was my Masters's Thesis. Spoiler alert, no LLM can write detailed historical commentary as well as humans (yet). But my models are better than the generic Chat-GPT, 
+											despite being considerably smaller. <a href="https://huggingface.co/collections/Boffl/bullingerlm-675c0101848e10c604ef1eac">Here</a> you can find them.
+											</p>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<img class="image fit" src="images/dhdPaperFigure.png" alt="" />
+										<header>
+											<h2>50 years of editorial Practice</h2>
+											<p>
+											Part of my Masters's Thesis was analyzing the editorial approaches. With the <a href="https://www.bullinger-digital.ch/index.html">Heinrich Bullinger Correspondence</a> a significant ongoing edition project laid the
+											groundwork for this analysis (and later fine-tuning of LLMs). Over 50 years commentary might be less consistent in content as one might assume. We published this work at the DHd 2025 in Bielefeld, you can find a
+											version of it <a href="https://www.zora.uzh.ch/id/eprint/276044/">here</a>.
+											</p>
+										</header>
+									</article>
+								</div>
+
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<img class="image fit" src="images/gptPaper.png" alt="" />
+										<header>
+											<h2>Detecting Hate Speech with ChatGPT</h2>
+											<p>
+											This came out of a seminar. The original project was concerned with analyzing religeous texts in online discurse. The interesting part was the hate speech detection, that ChatGPT can do. You can find the full paper
+										<a href="https://aclanthology.org/2024.trac-1.14/">here</a>.
+											</p>
+										</header>
+									</article>
+								</div>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="http://digital-musicology.herokuapp.com/dandrieu/" class="image fit"><img src="images/harmonize_bass.JPG" alt="" /></a>
+										<img class="image fit" src="images/harmonize_bass.JPG" alt="" />
 										<header>
 											<h2>Harmonizing a bass line using python</h2>
 											<p>
 											This is my attempt at creating a connection between the two subjects I study.
 											The idea came, when I while doing homework for music theory classes.
 											Unfortunatelly program was never good enough to have saved me actual time in
-											doing my assingments...
+											doing my assingments. I made a <a href="https://github.com/Boffl/FiguredBass">CLI</a> and a little <a href="https://github.com/Boffl/digital-musicology-webapps">Web-app</a>.
 											</p>
 										</header>
-
 									</article>
 								</div>
+
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="http://simple-crossword-generator.herokuapp.com/" class="image fit"><img src="images/crossword_generator.JPG" alt="" /></a>
+										<img class="image fit" src="images/crossword_generator.JPG" alt="" />
 										<header>
 											<h2>Simple Crossword Generator</h2>
 											<p>
@@ -135,6 +176,8 @@
 										</header>
 									</article>
 								</div>
+							
+							<!---
 								<div class="col-4 col-12-mobile">
 									<article class="item">
 										<a class="image fit"><img src="images/gpt-3_game.JPG" alt="" /></a>
@@ -150,12 +193,14 @@
 									</article>
 
 								</div>
+							-->
+
 							</div>
 
 						</div>
 					</section>
 
-				<!-- Portfolio -->
+				<!-- tapDance -->
 				<section id="tapDance" class="four">
 					<p>Fun fact: I also am a tap dancer, check this out: <a href="#tapDance">this</a> out.</p>
 					<div class="container">
@@ -170,10 +215,8 @@
 								<article class="item">
 									<a href="https://tap-grooves.ch/" class="image fit"><img src="images/tapGrooves.jpg" alt="" /></a>
 									<header>
-										<h2>Tap Grooves</h2>
-										<p>
-										blabla
-										</p>
+										<h2><a href="https://tap-grooves.ch/">Tap Grooves</a></h2>
+										A dynamic tap dance duo inspired by jazz music and the 1920s style, with a modern twist.
 									</header>
 
 								</article>
@@ -182,10 +225,8 @@
 								<article class="item">
 									<a href="https://fourfortheblues.ch/en/cotton-club-combo1/" class="image fit"><img  src="images/Cotton-Club-Combo-Bild-Karte-gross.jpg" alt="" /></a>
 									<header>
-										<h2>Cotton Club Combo</h2>
-										<p>
-											blabla
-										</p>
+										<h2> <a href="https://fourfortheblues.ch/en/cotton-club-combo1/">Cotton Club Combo</a></h2>
+										The 20ies live band “Cotton Club Combo” presents to you in a 30 minutes showtime the biggest hits from the roaring twenties.
 									</header>
 								</article>
 							</div>
@@ -193,13 +234,9 @@
 								<article class="item">
 									<a href="https://www.backstagestudio.ch/en/nikolaj-bauer" class="image fit"><img src="images/backstagestudio_nikolaj bauer_0.jpg" alt="" /></a>
 									<header>
-										<h2>Dance Teaching</h2>
-										<p>Also in collaboration with
-											<a href="https://github.com/JeanKesselring">Jean</a> and
-											<a href="https://github.com/luiwun">Luisa</a>.
-											Work in progress, see <a href="https://github.com/Boffl/language-game-prototype">Prototype</a>
+										<h2><a href="https://www.backstagestudio.ch/en/nikolaj-bauer">Dance Teaching</a></h2>
+										Curious to learn Tap?
 										</p>
-
 									</header>
 								</article>
 
@@ -209,14 +246,6 @@
 					</div>
 				</section>
 
-				<!-- Contact -->
-					<section id="tapDance" class="four">
-						<div class="container">
-							<p>blabla.</p>
-
-
-						</div>
-					</section>
 
 			</div>
 
