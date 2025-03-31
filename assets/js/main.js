@@ -4,6 +4,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* make all links open in new tab */
+document.querySelectorAll('a').forEach(link => {
+    link.setAttribute('target', '_blank');
+});
+
 (function($) {
 
 	var	$window = $(window),
