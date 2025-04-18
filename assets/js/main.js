@@ -5,9 +5,17 @@
 */
 
 /* make all links open in new tab */
-document.querySelectorAll('a').forEach(link => {
-    link.setAttribute('target', '_blank');
+document.querySelectorAll('a[href]').forEach(link => {
+    const href = link.getAttribute('href');
+
+    // Skip empty, hash-only, or same-page anchors
+    if (href.startsWith('#') || href === '' || href.startsWith(window.location.pathname + '#')) {
+        link.removeAttribute('target');  // make sure it's default
+    } else {
+        link.setAttribute('target', '_blank');
+    }
 });
+
 
 (function($) {
 
